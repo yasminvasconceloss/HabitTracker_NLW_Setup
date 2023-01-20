@@ -1,25 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Source+Sans+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <header>
-    <img src="./assets/logo.svg" alt="Logo do App Habits">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logo do App Habits" />
 
-    <button>
-    <img src="./assets/plus.svg" alt=" ícone plus">
-    Registrar o dia
-    </button>
+      <button>
+        <img src="./assets/plus.svg" alt=" ícone plus" />
+        Registrar o dia
+      </button>
+    </header>
 
-  </header>
-</body>
+    <form>
+      <div class="habits">
+        <div class="habit">⏰</div>
+        <div class="habit">💅🏼</div>
+        <div class="habit">🥗</div>
+        <div class="habit">💻</div>
+        <div class="habit">📖</div>
+        <div class="habit">😴</div>
+      </div>
+
+      <div class="days">
+        <div class="day">
+          <div>01/01</div>
+          <input type="checkbox" name="wake up early" />
+          <input type="checkbox" name="care" />
+          <input type="checkbox" name="healthy food" />
+          <input type="checkbox" name="code" />
+          <input type="checkbox" name="read" />
+          <input type="checkbox" name="sleep" />
+        </div>
+
+        <div class="day">
+          <div>02/01</div>
+          <input type="checkbox" name="wake up early" />
+          <input type="checkbox" name="care" />
+          <input type="checkbox" name="healthy food" />
+          <input type="checkbox" name="code" />
+          <input type="checkbox" name="read" />
+          <input type="checkbox" name="sleep" />
+        </div>
+      </div>
+    </form>
+  </body>
 </html>

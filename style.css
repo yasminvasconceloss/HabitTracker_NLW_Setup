@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #09090A;
+  background-color: #09090a;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
 
 button {
   padding: 16px 24px;
-  border: 2px solid #22C55E;
+  border: 2px solid #22c55e;
   border-radius: 8px;
   background-color: transparent;
   color: white;
@@ -27,8 +27,74 @@ button {
   align-items: center;
   gap: 12px;
 
-  font-family: 'Source Sans Pro', sans-serif;
+  width: 216px;
+  height: 52px;
+
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
+}
+
+form {
+  display: flex;
+
+  padding: 0 48px;
+}
+
+.habits {
+  margin-top: 59px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.habit {
+  width: 64px;
+  height: 64px;
+
+  font-size: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8px;
+
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  line-height: 125%;
+  color: #a1a1aa;
+  text-align: center;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+  border: 3px solid #22c55e;
+  border-radius: 8px;
+  background: #18181b;
+}
+
+input:checked {
+  background: #86efac;
+  border: 3px solid #22c55e;
 }
